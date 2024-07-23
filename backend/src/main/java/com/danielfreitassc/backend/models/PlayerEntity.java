@@ -1,6 +1,8 @@
 package com.danielfreitassc.backend.models;
 
 
+import org.hibernate.validator.constraints.Length;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,8 +11,16 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Max;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "players")
 public class PlayerEntity {
     @Id
@@ -23,7 +33,7 @@ public class PlayerEntity {
     @Column(name = "e-mail")
     private String email;
 
-    @Max(value = 14,message = "Número não pode ter mais que quatorze digitos")
+    @Length(max = 14)
     @Column(name = "phone-number")
     private String phoneNumber;
 
