@@ -10,7 +10,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.Max;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -37,7 +36,7 @@ public class PlayerEntity {
     @Column(name = "phone-number")
     private String phoneNumber;
 
-    @Column(name = "codiname")
+    @Column(name = "codiname", unique = true)
     private String codename;
 
     @Column(name = "grupo")
