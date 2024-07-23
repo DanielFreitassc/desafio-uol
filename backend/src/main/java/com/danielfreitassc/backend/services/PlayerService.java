@@ -2,9 +2,7 @@ package com.danielfreitassc.backend.services;
 
 import java.util.List;
 
-import org.apache.hc.core5.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import org.springframework.web.server.ResponseStatusException;
 
 import com.danielfreitassc.backend.dtos.PlayerDTO;
 import com.danielfreitassc.backend.mappers.PlayerMapper;
