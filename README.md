@@ -87,6 +87,7 @@ Não há certo ou errado. Queremos apenas saber mais sobre seus conhecimentos na
 * Testes unitários;
 * Padronização de código;
 * Padrões de projeto;
+  
 
 ## Quem buscamos
 Queremos uma pessoa que goste do que faz, trabalhe em equipe e tenha vontade de inovar, buscando sempre atualização e soluções inovadoras.
