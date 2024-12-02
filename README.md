@@ -94,4 +94,3 @@ Não há certo ou errado. Queremos apenas saber mais sobre seus conhecimentos na
 Queremos uma pessoa que goste do que faz, trabalhe em equipe e tenha vontade de inovar, buscando sempre atualização e soluções inovadoras.
 
 Se você se identificou, venha fazer parte do nosso time!
-
